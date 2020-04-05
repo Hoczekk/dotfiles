@@ -138,7 +138,7 @@ POWERLEVEL9K_VCS_OUTGOING_CHANGES_ICON=↑
 POWERLEVEL9K_VCS_COMMIT_ICON=' '
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX='%F{blue}╭─%F{red}'
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX='%F{blue}╰%f '
-POWERLEVEL9K_CUSTOM_OS_ICON='echo  $(whoami) "(╯°□°）╯︵ ┻━┻"'
+POWERLEVEL9K_CUSTOM_OS_ICON='echo  $(whoami)'
 POWERLEVEL9K_CUSTOM_OS_ICON_BACKGROUND=red
 POWERLEVEL9K_CUSTOM_OS_ICON_FOREGROUND=white
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_os_icon ssh root_indicator dir dir_writable vcs)
@@ -157,6 +157,6 @@ function lazygit() {
 
 alias config='/usr/bin/git --git-dir=/home/c0mp_as_s1on/.cfg/ --work-tree=/home/c0mp_as_s1on'
 
-# -------------------------------- OTHER ---------------------------------
-#colorful shell
-/opt/shell-color-scripts/randomcolors.sh
+# ---------------------------------- FETCH -----------------------------------
+
+neofetch
